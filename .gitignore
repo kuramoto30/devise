@@ -13,6 +13,13 @@
 !/log/.keep
 !/tmp/.keep
 
+.DS_Store
+/vendor/bundle
+
+#もしRubyMineというIDEを使用している場合は以下も追加
+
+/.idea
+
 # Ignore pidfiles, but keep the directory.
 /tmp/pids/*
 !/tmp/pids/
