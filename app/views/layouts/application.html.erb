@@ -8,9 +8,13 @@
 
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
-  </head>
-
-  <body>
+    <body>
+    <!-- ***** 以下を追加 ***** -->
+    <header>
+      <%= render "layouts/header" %>
+    </header>
+    <hr>
+    <!-- ***** 以上を追加 ***** -->
     <%= yield %>
   </body>
 </html>
