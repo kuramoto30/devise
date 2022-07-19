@@ -11,5 +11,4 @@ class Present < ApplicationRecord
               Good: 4,
               Very_Good: 5
         }
-      end
 end
