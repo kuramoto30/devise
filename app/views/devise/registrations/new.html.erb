@@ -4,18 +4,18 @@
   <%= render "devise/shared/error_messages", resource: resource %>
 
   <div class="field">
-    <%= f.label :nickname, "ニックネーム" %><br />
+    <%= f.label :nickname %><br />
     <%= f.text_field :nickname, autofocus: true %>
   </div>
 
   <div class="field">
-    <%= f.label :gender, "性別" %><br />
-    <%= f.text_field :gender, autofocus: true %>
+    <%= f.label :gender %><br />
+    <%= f.select :gender, User.genders_i18n.keys %>
   </div>
 
   <div class="field">
-    <%= f.label :age, "年齢" %><br />
-    <%= f.text_field :age, autofocus: true %>
+    <%= f.label :age %><br />
+    <%= f.select :age, User.ages_i18n.keys %>
   </div>
 
   <div class="field">

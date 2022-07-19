@@ -2,7 +2,13 @@ ja:
   activerecord:
     models:
       user: ユーザー
+      present: プレゼント
     attributes:
       user:
-        gendaer: 性別
+        nickname: ニックネーム
+        gender: 性別
         age: 年齢
+      present:
+        present_name: プレゼントの名前
+        present_score: プレセントの満足度スコア
+        present_review: プレゼントへの感想
