@@ -14,3 +14,10 @@ ja:
         seventies: "70代"
         eighties: "80代"
         nineties: "90代"
+    present:
+      present_scores: 
+        Very_Bad: "最悪"
+        Bad: "良くない"
+        Medium: "普通"
+        Good: "良い"
+        Very_Good: "すごく嬉しい"
