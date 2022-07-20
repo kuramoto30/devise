@@ -13,3 +13,35 @@
  *= require_tree .
  *= require_self
  */
+ @import "bootstrap/scss/bootstrap";
+
+ $fa-font-path: '@fortawesome/fontawesome-free/webfonts';
+ @import "@fortawesome/fontawesome-free/scss/fontawesome";
+ @import "@fortawesome/fontawesome-free/scss/regular";
+
+ .base-container {
+    @extend .container-fluid;
+    max-width: var(--breakpoint-lg);
+    padding: 30px 15px;
+ }
+
+ .base-container {
+    margin: 0 auto;
+    padding: 1rem;
+  }
+
+  .mw-sm {
+    max-width: 576px;
+  }
+  
+  .mw-md {
+    max-width: 768px;
+  }
+  
+  .mw-lg {
+    max-width: 992px;
+  }
+  
+  .mw-xl {
+    max-width: 1200px;
+  }
